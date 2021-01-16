@@ -3,12 +3,12 @@
     "var": "React",
     "versions": {
       ">= 0.11.0 <= 16.0.0-alpha.6": {
-        "development": "https://unpkg.com/react@[version]/dist/react.js",
-        "production": "https://unpkg.com/react@[version]/dist/react.min.js"
+        "development": "[endpoint]react@[version]/dist/react.js",
+        "production": "[endpoint]react@[version]/dist/react.min.js"
       },
       ">= 16.0.0-alpha.7 < 16.6.2 || > 16.6.2": {
-        "development": "https://unpkg.com/react@[version]/umd/react.development.js",
-        "production": "https://unpkg.com/react@[version]/umd/react.production.min.js"
+        "development": "[endpoint]react@[version]/umd/react.development.js",
+        "production": "[endpoint]react@[version]/umd/react.production.min.js"
       }
     }
   },
@@ -16,12 +16,12 @@
     "var": "ReactDOM",
     "versions": {
       ">= 0.14.0 <= 16.0.0-alpha.6": {
-        "development": "https://unpkg.com/react-dom@[version]/dist/react-dom.js",
-        "production": "https://unpkg.com/react-dom@[version]/dist/react-dom.min.js"
+        "development": "[endpoint]react-dom@[version]/dist/react-dom.js",
+        "production": "[endpoint]react-dom@[version]/dist/react-dom.min.js"
       },
       ">= 16.0.0-alpha.7 < 16.6.2 || > 16.6.2": {
-        "development": "https://unpkg.com/react-dom@[version]/umd/react-dom.development.js",
-        "production": "https://unpkg.com/react-dom@[version]/umd/react-dom.production.min.js"
+        "development": "[endpoint]react-dom@[version]/umd/react-dom.development.js",
+        "production": "[endpoint]react-dom@[version]/umd/react-dom.production.min.js"
       }
     }
   },
@@ -29,24 +29,24 @@
     "var": "ReduxSaga",
     "versions": {
       ">= 0.4.0 <= 1.0.0-beta.1": {
-        "development": "https://unpkg.com/redux-saga@[version]/dist/redux-saga.js",
-        "production": "https://unpkg.com/redux-saga@[version]/dist/redux-saga.min.js"
+        "development": "[endpoint]redux-saga@[version]/dist/redux-saga.js",
+        "production": "[endpoint]redux-saga@[version]/dist/redux-saga.min.js"
       },
       "> 1.0.0-beta.1 < 1.0.0": {
-        "development": "https://unpkg.com/redux-saga@[version]/dist/redux-saga.umd.js",
-        "production": "https://unpkg.com/redux-saga@[version]/dist/redux-saga.min.umd.js"
+        "development": "[endpoint]redux-saga@[version]/dist/redux-saga.umd.js",
+        "production": "[endpoint]redux-saga@[version]/dist/redux-saga.min.umd.js"
       },
       ">= 1.0.0": {
-        "development": "https://unpkg.com/redux-saga@[version]/dist/redux-saga.umd.js",
-        "production": "https://unpkg.com/redux-saga@[version]/dist/redux-saga.umd.min.js"
+        "development": "[endpoint]redux-saga@[version]/dist/redux-saga.umd.js",
+        "production": "[endpoint]redux-saga@[version]/dist/redux-saga.umd.min.js"
       }
     }
   },
   "babel-polyfill": {
     "versions": {
       "*": {
-        "development": "https://unpkg.com/babel-polyfill@[version]/dist/polyfill.js",
-        "production": "https://unpkg.com/babel-polyfill@[version]/dist/polyfill.min.js"
+        "development": "[endpoint][name]@[version]/dist/polyfill.js",
+        "production": "[endpoint][name]@[version]/dist/polyfill.min.js"
       }
     }
   },
@@ -54,8 +54,8 @@
     "var": "Redux",
     "versions": {
       ">= 0.12.0": {
-        "development": "https://unpkg.com/redux@[version]/dist/redux.js",
-        "production": "https://unpkg.com/redux@[version]/dist/redux.min.js"
+        "development": "[endpoint]redux@[version]/dist/redux.js",
+        "production": "[endpoint]redux@[version]/dist/redux.min.js"
       }
     }
   },
@@ -63,8 +63,8 @@
     "var": "ReactRedux",
     "versions": {
       ">= 0.3.0 < 5.0.0 || >= 5.0.1": {
-        "development": "https://unpkg.com/react-redux@[version]/dist/react-redux.js",
-        "production": "https://unpkg.com/react-redux@[version]/dist/react-redux.min.js"
+        "development": "[endpoint]react-redux@[version]/dist/react-redux.js",
+        "production": "[endpoint]react-redux@[version]/dist/react-redux.min.js"
       }
     }
   },
@@ -72,8 +72,8 @@
     "var": "axios",
     "versions": {
       ">= 0.6.0": {
-        "development": "https://unpkg.com/axios@[version]/dist/axios.js",
-        "production": "https://unpkg.com/axios@[version]/dist/axios.min.js"
+        "development": "[endpoint]axios@[version]/dist/axios.js",
+        "production": "[endpoint]axios@[version]/dist/axios.min.js"
       }
     }
   },
@@ -81,8 +81,8 @@
     "var": "ReactRouter",
     "versions": {
       ">= 4.0.0": {
-        "development": "https://unpkg.com/react-router@[version]/umd/react-router.js",
-        "production": "https://unpkg.com/react-router@[version]/umd/react-router.min.js"
+        "development": "[endpoint]react-router@[version]/umd/react-router.js",
+        "production": "[endpoint]react-router@[version]/umd/react-router.min.js"
       }
     }
   },
@@ -90,16 +90,16 @@
     "var": "ReactRouterDOM",
     "versions": {
       ">= 4.0.0": {
-        "development": "https://unpkg.com/react-router-dom@[version]/umd/react-router-dom.js",
-        "production": "https://unpkg.com/react-router-dom@[version]/umd/react-router-dom.min.js"
+        "development": "[endpoint]react-router-dom@[version]/umd/react-router-dom.js",
+        "production": "[endpoint]react-router-dom@[version]/umd/react-router-dom.min.js"
       }
     }
   },
   "tachyons": {
     "versions": {
       "*": {
-        "development": "https://unpkg.com/tachyons@[version]/css/tachyons.css",
-        "production": "https://unpkg.com/tachyons@[version]/css/tachyons.min.css"
+        "development": "[endpoint]tachyons@[version]/css/tachyons.css",
+        "production": "[endpoint]tachyons@[version]/css/tachyons.min.css"
       }
     }
   },
@@ -116,12 +116,12 @@
     "var": "ReduxAct",
     "versions": {
       ">= 0.4.2 <= 1.1.1": {
-        "development": "https://unpkg.com/redux-act@[version]/dist/redux-act.js",
-        "production": "https://unpkg.com/redux-act@[version]/dist/redux-act.js"
+        "development": "[endpoint]redux-act@[version]/dist/redux-act.js",
+        "production": "[endpoint]redux-act@[version]/dist/redux-act.js"
       },
       ">= 1.1.2": {
-        "development": "https://unpkg.com/redux-act@[version]/dist/redux-act.js",
-        "production": "https://unpkg.com/redux-act@[version]/dist/redux-act.min.js"
+        "development": "[endpoint]redux-act@[version]/dist/redux-act.js",
+        "production": "[endpoint]redux-act@[version]/dist/redux-act.min.js"
       }
     }
   },
@@ -129,8 +129,8 @@
     "var": "jwt_decode",
     "versions": {
       "*": {
-        "development": "https://unpkg.com/jwt-decode@[version]/build/jwt-decode.js",
-        "production": "https://unpkg.com/jwt-decode@[version]/build/jwt-decode.min.js"
+        "development": "[endpoint]jwt-decode@[version]/build/jwt-decode.js",
+        "production": "[endpoint]jwt-decode@[version]/build/jwt-decode.min.js"
       }
     }
   },
@@ -138,8 +138,8 @@
     "var": "ReduxThunk",
     "versions": {
       ">= 2.0.1": {
-        "development": "https://unpkg.com/redux-thunk@[version]/dist/redux-thunk.js",
-        "production": "https://unpkg.com/redux-thunk@[version]/dist/redux-thunk.min.js"
+        "development": "[endpoint]redux-thunk@[version]/dist/redux-thunk.js",
+        "production": "[endpoint]redux-thunk@[version]/dist/redux-thunk.min.js"
       }
     }
   },
@@ -147,8 +147,8 @@
     "var": "ObjectAssign",
     "versions": {
       ">= 4.1.1": {
-        "development": "https://unpkg.com/@umds/object-assign@[version]-beta.24/object-assign.js",
-        "production": "https://unpkg.com/@umds/object-assign@[version]-beta.24/object-assign.min.js"
+        "development": "[endpoint]@umds/object-assign@[version]-beta.24/object-assign.js",
+        "production": "[endpoint]@umds/object-assign@[version]-beta.24/object-assign.min.js"
       }
     }
   },
@@ -156,8 +156,8 @@
     "var": "ReduxActAsync",
     "versions": {
       ">= 1.6.0": {
-        "development": "https://unpkg.com/@umds/redux-act-async@[version]-beta.24/redux-act-async.js",
-        "production": "https://unpkg.com/@umds/redux-act-async@[version]-beta.24/redux-act-async.min.js"
+        "development": "[endpoint]@umds/redux-act-async@[version]-beta.24/redux-act-async.js",
+        "production": "[endpoint]@umds/redux-act-async@[version]-beta.24/redux-act-async.min.js"
       }
     }
   },
@@ -165,8 +165,8 @@
     "var": "mobx",
     "versions": {
       ">= 2.1.3": {
-        "development": "https://unpkg.com/mobx@[version]/lib/mobx.umd.js",
-        "production": "https://unpkg.com/mobx@[version]/lib/mobx.umd.min.js"
+        "development": "[endpoint]mobx@[version]/lib/mobx.umd.js",
+        "production": "[endpoint]mobx@[version]/lib/mobx.umd.min.js"
       }
     }
   },
@@ -174,12 +174,12 @@
     "var": "Vue",
     "versions": {
       ">= 0.8.7 <= 2.0.3": {
-        "development": "https://unpkg.com/vue@[version]/dist/vue.js",
-        "production": "https://unpkg.com/vue@[version]/dist/vue.min.js"
+        "development": "[endpoint]vue@[version]/dist/vue.js",
+        "production": "[endpoint]vue@[version]/dist/vue.min.js"
       },
       ">= 2.0.4": {
-        "development": "https://unpkg.com/vue@[version]/dist/vue.runtime.js",
-        "production": "https://unpkg.com/vue@[version]/dist/vue.runtime.min.js"
+        "development": "[endpoint]vue@[version]/dist/vue.runtime.js",
+        "production": "[endpoint]vue@[version]/dist/vue.runtime.min.js"
       }
     }
   },
@@ -187,12 +187,12 @@
     "var": "angular",
     "versions": {
       ">= 1.2.17 <= 1.2.23": {
-        "development": "https://unpkg.com/angular@[version]/lib/angular.js",
-        "production": "https://unpkg.com/angular@[version]/lib/angular.min.js"
+        "development": "[endpoint]angular@[version]/lib/angular.js",
+        "production": "[endpoint]angular@[version]/lib/angular.min.js"
       },
       ">= 1.2.27": {
-        "development": "https://unpkg.com/angular@[version]/angular.js",
-        "production": "https://unpkg.com/angular@[version]/angular.min.js"
+        "development": "[endpoint]angular@[version]/angular.js",
+        "production": "[endpoint]angular@[version]/angular.min.js"
       }
     }
   },
@@ -200,8 +200,8 @@
     "var": "ng.core",
     "versions": {
       ">=2.0.0": {
-        "development": "https://unpkg.com/@angular/core@[version]/bundles/core.umd.js",
-        "production": "https://unpkg.com/@angular/core@[version]/bundles/core.umd.min.js"
+        "development": "[endpoint]@angular/core@[version]/bundles/core.umd.js",
+        "production": "[endpoint]@angular/core@[version]/bundles/core.umd.min.js"
       }
     }
   },
@@ -209,8 +209,8 @@
     "var": "ng.common",
     "versions": {
       ">=2.0.0": {
-        "development": "https://unpkg.com/@angular/common@[version]/bundles/common.umd.js",
-        "production": "https://unpkg.com/@angular/common@[version]/bundles/common.umd.min.js"
+        "development": "[endpoint]@angular/common@[version]/bundles/common.umd.js",
+        "production": "[endpoint]@angular/common@[version]/bundles/common.umd.min.js"
       }
     }
   },
@@ -218,8 +218,8 @@
     "var": "ng.common.http",
     "versions": {
       ">=2.1.0 < 3.0.0 || >= 4.0.0": {
-        "development": "https://unpkg.com/@angular/common@[version]/bundles/common-http.umd.js",
-        "production": "https://unpkg.com/@angular/common@[version]/bundles/common-http.umd.min.js"
+        "development": "[endpoint]@angular/common@[version]/bundles/common-http.umd.js",
+        "production": "[endpoint]@angular/common@[version]/bundles/common-http.umd.min.js"
       }
     }
   },
@@ -227,8 +227,8 @@
     "var": "ng.compiler",
     "versions": {
       ">=2.0.0": {
-        "development": "https://unpkg.com/@angular/compiler@[version]/bundles/compiler.umd.js",
-        "production": "https://unpkg.com/@angular/compiler@[version]/bundles/compiler.umd.min.js"
+        "development": "[endpoint]@angular/compiler@[version]/bundles/compiler.umd.js",
+        "production": "[endpoint]@angular/compiler@[version]/bundles/compiler.umd.min.js"
       }
     }
   },
@@ -236,8 +236,8 @@
     "var": "ng.animations",
     "versions": {
       ">=2.0.0": {
-        "development": "https://unpkg.com/@angular/animations@[version]/bundles/animations.umd.js",
-        "production": "https://unpkg.com/@angular/animations@[version]/bundles/animations.umd.min.js"
+        "development": "[endpoint]@angular/animations@[version]/bundles/animations.umd.js",
+        "production": "[endpoint]@angular/animations@[version]/bundles/animations.umd.min.js"
       }
     }
   },
@@ -245,8 +245,8 @@
     "var": "ng.animations.browser",
     "versions": {
       ">=2.1.0 < 3.0.0 || >= 4.0.0": {
-        "development": "https://unpkg.com/@angular/animations@[version]/bundles/animations-browser.umd.js",
-        "production": "https://unpkg.com/@angular/animations@[version]/bundles/animations-browser.umd.min.js"
+        "development": "[endpoint]@angular/animations@[version]/bundles/animations-browser.umd.js",
+        "production": "[endpoint]@angular/animations@[version]/bundles/animations-browser.umd.min.js"
       }
     }
   },
@@ -254,8 +254,8 @@
     "var": "ng.http",
     "versions": {
       ">=2.0.0": {
-        "development": "https://unpkg.com/@angular/http@[version]/bundles/http.umd.js",
-        "production": "https://unpkg.com/@angular/http@[version]/bundles/http.umd.min.js"
+        "development": "[endpoint]@angular/http@[version]/bundles/http.umd.js",
+        "production": "[endpoint]@angular/http@[version]/bundles/http.umd.min.js"
       }
     }
   },
@@ -263,8 +263,8 @@
     "var": "ng.forms",
     "versions": {
       ">=2.0.0": {
-        "development": "https://unpkg.com/@angular/forms@[version]/bundles/forms.umd.js",
-        "production": "https://unpkg.com/@angular/forms@[version]/bundles/forms.umd.min.js"
+        "development": "[endpoint]@angular/forms@[version]/bundles/forms.umd.js",
+        "production": "[endpoint]@angular/forms@[version]/bundles/forms.umd.min.js"
       }
     }
   },
@@ -272,8 +272,8 @@
     "var": "ng.platformBrowser",
     "versions": {
       ">=2.0.0": {
-        "development": "https://unpkg.com/@angular/platform-browser@[version]/bundles/platform-browser.umd.js",
-        "production": "https://unpkg.com/@angular/platform-browser@[version]/bundles/platform-browser.umd.min.js"
+        "development": "[endpoint]@angular/platform-browser@[version]/bundles/platform-browser.umd.js",
+        "production": "[endpoint]@angular/platform-browser@[version]/bundles/platform-browser.umd.min.js"
       }
     }
   },
@@ -281,8 +281,8 @@
     "var": "ng.platformBrowserDynamic",
     "versions": {
       ">=2.0.0": {
-        "development": "https://unpkg.com/@angular/platform-browser-dynamic@[version]/bundles/platform-browser-dynamic.umd.js",
-        "production": "https://unpkg.com/@angular/platform-browser-dynamic@[version]/bundles/platform-browser-dynamic.umd.min.js"
+        "development": "[endpoint]@angular/platform-browser-dynamic@[version]/bundles/platform-browser-dynamic.umd.js",
+        "production": "[endpoint]@angular/platform-browser-dynamic@[version]/bundles/platform-browser-dynamic.umd.min.js"
       }
     }
   },
@@ -290,8 +290,8 @@
     "var": "ng.router",
     "versions": {
       ">=2.0.0": {
-        "development": "https://unpkg.com/@angular/router@[version]/bundles/router.umd.js",
-        "production": "https://unpkg.com/@angular/router@[version]/bundles/router.umd.min.js"
+        "development": "[endpoint]@angular/router@[version]/bundles/router.umd.js",
+        "production": "[endpoint]@angular/router@[version]/bundles/router.umd.min.js"
       }
     }
   },
@@ -299,8 +299,8 @@
     "var": "ng.upgrade",
     "versions": {
       ">=2.0.0": {
-        "development": "https://unpkg.com/@angular/upgrade@[version]/bundles/upgrade.umd.js",
-        "production": "https://unpkg.com/@angular/upgrade@[version]/bundles/upgrade.umd.min.js"
+        "development": "[endpoint]@angular/upgrade@[version]/bundles/upgrade.umd.js",
+        "production": "[endpoint]@angular/upgrade@[version]/bundles/upgrade.umd.min.js"
       }
     }
   },
@@ -308,8 +308,8 @@
     "var": "ng.upgrade.static",
     "versions": {
       ">=2.2.0 < 3.0.0 || >= 4.0.0": {
-        "development": "https://unpkg.com/@angular/upgrade@[version]/bundles/upgrade-static.umd.js",
-        "production": "https://unpkg.com/@angular/upgrade@[version]/bundles/upgrade-static.umd.min.js"
+        "development": "[endpoint]@angular/upgrade@[version]/bundles/upgrade-static.umd.js",
+        "production": "[endpoint]@angular/upgrade@[version]/bundles/upgrade-static.umd.min.js"
       }
     }
   },
@@ -317,8 +317,8 @@
     "var": "core",
     "versions": {
       ">= 0.0.9 < 3.0.0": {
-        "development": "https://unpkg.com/core-js@[version]/client/core.js",
-        "production": "https://unpkg.com/core-js@[version]/client/core.min.js"
+        "development": "[endpoint]core-js@[version]/client/core.js",
+        "production": "[endpoint]core-js@[version]/client/core.min.js"
       }
     }
   },
@@ -326,8 +326,8 @@
     "var": "Reflect",
     "versions": {
       ">= 0.0.2": {
-        "development": "https://unpkg.com/reflect-metadata@[version]/Reflect.js",
-        "production": "https://unpkg.com/reflect-metadata@[version]/Reflect.js"
+        "development": "[endpoint]reflect-metadata@[version]/Reflect.js",
+        "production": "[endpoint]reflect-metadata@[version]/Reflect.js"
       }
     }
   },
@@ -335,8 +335,8 @@
     "var": "Rx",
     "versions": {
       ">= 2.2.21": {
-        "development": "https://unpkg.com/rx@[version]/dist/rx.all.js",
-        "production": "https://unpkg.com/rx@[version]/dist/rx.all.min.js"
+        "development": "[endpoint]rx@[version]/dist/rx.all.js",
+        "production": "[endpoint]rx@[version]/dist/rx.all.min.js"
       }
     }
   },
@@ -344,8 +344,8 @@
     "var": "Rx",
     "versions": {
       "< 6.0.0": {
-        "development": "https://unpkg.com/rxjs@[version]/bundles/Rx.js",
-        "production": "https://unpkg.com/rxjs@[version]/bundles/Rx.min.js"
+        "development": "[endpoint]rxjs@[version]/bundles/Rx.js",
+        "production": "[endpoint]rxjs@[version]/bundles/Rx.min.js"
       }
     }
   },
@@ -353,8 +353,8 @@
     "var": "Zone",
     "versions": {
       ">= 0.5.0 <= 0.6.26 || >= 0.7.2": {
-        "development": "https://unpkg.com/zone.js@[version]/dist/zone.js",
-        "production": "https://unpkg.com/zone.js@[version]/dist/zone.min.js"
+        "development": "[endpoint]zone.js@[version]/dist/zone.js",
+        "production": "[endpoint]zone.js@[version]/dist/zone.min.js"
       }
     }
   },
@@ -362,16 +362,16 @@
     "var": "preact",
     "versions": {
       ">= 2.4.0 < 10.0.0-alpha.0": {
-        "development": "https://unpkg.com/preact@[version]/dist/preact.js",
-        "production": "https://unpkg.com/preact@[version]/dist/preact.min.js"
+        "development": "[endpoint]preact@[version]/dist/preact.js",
+        "production": "[endpoint]preact@[version]/dist/preact.min.js"
       },
       ">= 10.0.0-alpha.0 < 10.0.0-alpha.3": {
-        "development": "https://unpkg.com/preact@[version]/dist/preact.dev.js",
-        "production": "https://unpkg.com/preact@[version]/dist/preact.umd.js"
+        "development": "[endpoint]preact@[version]/dist/preact.dev.js",
+        "production": "[endpoint]preact@[version]/dist/preact.umd.js"
       },
       ">= 10.0.0-alpha.3": {
-        "development": "https://unpkg.com/preact@[version]/dist/preact.umd.js",
-        "production": "https://unpkg.com/preact@[version]/dist/preact.umd.js"
+        "development": "[endpoint]preact@[version]/dist/preact.umd.js",
+        "production": "[endpoint]preact@[version]/dist/preact.umd.js"
       }
     }
   },
@@ -379,8 +379,8 @@
     "var": "preactCompat",
     "versions": {
       ">= 1.0.0": {
-        "development": "https://unpkg.com/preact-compat@[version]/dist/preact-compat.js",
-        "production": "https://unpkg.com/preact-compat@[version]/dist/preact-compat.min.js"
+        "development": "[endpoint]preact-compat@[version]/dist/preact-compat.js",
+        "production": "[endpoint]preact-compat@[version]/dist/preact-compat.min.js"
       }
     }
   },
@@ -388,8 +388,8 @@
     "var": null,
     "versions": {
       ">= 1.1.2": {
-        "development": "https://unpkg.com/semantic-ui@[version]/dist/semantic.js",
-        "production": "https://unpkg.com/semantic-ui@[version]/dist/semantic.min.js"
+        "development": "[endpoint]semantic-ui@[version]/dist/semantic.js",
+        "production": "[endpoint]semantic-ui@[version]/dist/semantic.min.js"
       }
     }
   },
@@ -397,8 +397,8 @@
     "var": "JSZip",
     "versions": {
       ">= 2.6.0": {
-        "development": "https://unpkg.com/jszip@[version]/dist/jszip.js",
-        "production": "https://unpkg.com/jszip@[version]/dist/jszip.min.js"
+        "development": "[endpoint]jszip@[version]/dist/jszip.js",
+        "production": "[endpoint]jszip@[version]/dist/jszip.min.js"
       }
     }
   },
@@ -406,12 +406,12 @@
     "var": "saveAs",
     "versions": {
       ">= 1.2.0 <= 1.3.3 || >= 1.3.8 < 2.0.0-rc.1": {
-        "development": "https://unpkg.com/file-saver@[version]/FileSaver.js",
-        "production": "https://unpkg.com/file-saver@[version]/FileSaver.min.js"
+        "development": "[endpoint]file-saver@[version]/FileSaver.js",
+        "production": "[endpoint]file-saver@[version]/FileSaver.min.js"
       },
       ">= 2.0.0-rc.1": {
-        "development": "https://unpkg.com/file-saver@[version]/dist/FileSaver.js",
-        "production": "https://unpkg.com/file-saver@[version]/dist/FileSaver.min.js"
+        "development": "[endpoint]file-saver@[version]/dist/FileSaver.js",
+        "production": "[endpoint]file-saver@[version]/dist/FileSaver.min.js"
       }
     }
   },
@@ -419,8 +419,8 @@
     "var": "$",
     "versions": {
       ">= 2.1.1": {
-        "development": "https://unpkg.com/jquery@[version]/dist/jquery.js",
-        "production": "https://unpkg.com/jquery@[version]/dist/jquery.min.js"
+        "development": "[endpoint]jquery@[version]/dist/jquery.js",
+        "production": "[endpoint]jquery@[version]/dist/jquery.min.js"
       }
     }
   },
@@ -428,8 +428,8 @@
     "var": "PropTypes",
     "versions": {
       ">= 15.5.2": {
-        "development": "https://unpkg.com/prop-types@[version]/prop-types.js",
-        "production": "https://unpkg.com/prop-types@[version]/prop-types.min.js"
+        "development": "[endpoint]prop-types@[version]/prop-types.js",
+        "production": "[endpoint]prop-types@[version]/prop-types.min.js"
       }
     }
   },
@@ -437,8 +437,8 @@
     "var": "hoistNonReactStatics",
     "versions": {
       ">= 2.5.1": {
-        "development": "https://unpkg.com/hoist-non-react-statics@[version]/dist/hoist-non-react-statics.js",
-        "production": "https://unpkg.com/hoist-non-react-statics@[version]/dist/hoist-non-react-statics.min.js"
+        "development": "[endpoint]hoist-non-react-statics@[version]/dist/hoist-non-react-statics.js",
+        "production": "[endpoint]hoist-non-react-statics@[version]/dist/hoist-non-react-statics.min.js"
       }
     }
   },
@@ -446,8 +446,8 @@
     "var": "reactLifecyclesCompat",
     "versions": {
       ">= 1.0.0": {
-        "development": "https://unpkg.com/react-lifecycles-compat@[version]/react-lifecycles-compat.js",
-        "production": "https://unpkg.com/react-lifecycles-compat@[version]/react-lifecycles-compat.min.js"
+        "development": "[endpoint]react-lifecycles-compat@[version]/react-lifecycles-compat.js",
+        "production": "[endpoint]react-lifecycles-compat@[version]/react-lifecycles-compat.min.js"
       }
     }
   },
@@ -455,8 +455,8 @@
     "var": "withSideEffect",
     "versions": {
       ">= 1.1.4": {
-        "development": "https://unpkg.com/react-side-effect@[version]/lib/index.umd.js",
-        "production": "https://unpkg.com/react-side-effect@[version]/lib/index.umd.min.js"
+        "development": "[endpoint]react-side-effect@[version]/lib/index.umd.js",
+        "production": "[endpoint]react-side-effect@[version]/lib/index.umd.min.js"
       }
     }
   },
@@ -464,8 +464,8 @@
     "var": "_",
     "versions": {
       ">= 4.5.1": {
-        "development": "https://unpkg.com/lodash@[version]/core.js",
-        "production": "https://unpkg.com/lodash@[version]/core.min.js"
+        "development": "[endpoint]lodash@[version]/core.js",
+        "production": "[endpoint]lodash@[version]/core.min.js"
       }
     }
   },
@@ -473,8 +473,8 @@
     "var": "History",
     "versions": {
       ">= 2.1.1": {
-        "development": "https://unpkg.com/history@[version]/umd/history.js",
-        "production": "https://unpkg.com/history@[version]/umd/history.min.js"
+        "development": "[endpoint]history@[version]/umd/history.js",
+        "production": "[endpoint]history@[version]/umd/history.min.js"
       }
     }
   }

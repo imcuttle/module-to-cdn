@@ -52,6 +52,10 @@ Type: `string`<br>
 Values: `development`, `production`<br>
 Default: `development`
 
+##### options.modules
+
+See default modules [modules.json](modules.json)
+
 ### Result
 
 * `name`: name of the module

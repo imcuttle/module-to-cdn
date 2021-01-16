@@ -2,9 +2,9 @@
 
 const semver = require('semver');
 
-const modules = require('./modules');
+const defaultModules = require('./modules');
 
-module.exports = function (moduleName, version, options) {
+module.exports = function (moduleName, version = '', options) {
     options = options || {};
     const env = options.env || 'development';
 
@@ -12,9 +12,10 @@ module.exports = function (moduleName, version, options) {
         throw new TypeError('Expected \'moduleName\' to be a string');
     }
 
-    if (typeof version !== 'string') {
-        throw new TypeError('Expected \'version\' to be a string');
-    }
+    const modules = {
+        ...defaultModules,
+        ...options.modules
+    };
 
     const isModuleAvailable = moduleName in modules;
     if (!isModuleAvailable) {
@@ -31,6 +32,8 @@ module.exports = function (moduleName, version, options) {
 
     let url = env === 'development' ? config.development : config.production;
     url = url.replace('[version]', version);
+    url = url.replace('[endpoint]', options.endpoint || '//unpkg.com/');
+    url = url.replace('[name]', moduleName);
 
     return {
         name: moduleName,
