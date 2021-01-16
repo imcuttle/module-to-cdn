@@ -52,6 +52,11 @@ Type: `string`<br>
 Values: `development`, `production`<br>
 Default: `development`
 
+##### options.endpoint
+
+Type: `string`<br>
+Default: `//unpkg.com/`
+
 ##### options.modules
 
 See default modules [modules.json](modules.json)
