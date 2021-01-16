@@ -1,6 +1,9 @@
 {
   "name": "@moyuyc/module-to-cdn",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Get cdn config from npm module name",
   "license": "MIT",
   "repository": "mastilver/module-to-cdn",
