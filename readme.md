@@ -61,6 +61,11 @@ Default: `//unpkg.com/`
 
 See default modules [modules.json](modules.json)
 
+##### options.versionSeg
+
+Type: `string`<br>
+Default: `@`
+
 ### Result
 
 * `name`: name of the module

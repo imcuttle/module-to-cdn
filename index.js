@@ -32,6 +32,7 @@ module.exports = function (moduleName, version = '', options) {
 
     let url = env === 'development' ? config.development : config.production;
     url = url.replace('[version]', version);
+    url = url.replace('[version-seg]', options.versionSeg || '@');
     url = url.replace('[endpoint]', options.endpoint || '//unpkg.com/');
     url = url.replace('[name]', moduleName);
 
